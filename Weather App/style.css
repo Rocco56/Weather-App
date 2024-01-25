@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ee82ee;
+}
+
+.app-container {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 7px;
+  max-width: 500px;
+  height: 700px;
+
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.search-container input {
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  color: wheat;
+  background-color: rgb(94, 96, 98);
+  border: none;
+  border: none;
+}
+
+input:hover {
+  scale: 1.1;
+}
+
+.search-button {
+  font-size: 1.4rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(94, 96, 98);
+  border: none;
+  outline: none;
+}
+
+.search-button:hover {
+  scale: 1.2;
+}
+
+.city-time {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.time-text {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+}
+
+.temp-fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.temp {
+  align-self: center;
+  margin-top: 5rem;
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+}
+
+.deg {
+  font-size: xx-small;
+  font-weight: 400;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.faren {
+  font-size: smaller;
+  font-weight: 400;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.temp-text {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mini-desc {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mini-desc h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5rem;
+  margin-right: 3rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.humidity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.humidity-container h3 {
+  margin-bottom: 1.5rem;
+}
+
+.hum-fig {
+  display: flex;
+
+  align-items: center;
+}
+
+.hum-fig p {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.hum-fig img {
+  margin-right: 10px;
+}
+
+.wind-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wind-container h3 {
+  margin-bottom: 1.5rem;
+}
+
+.wind-fig {
+  display: flex;
+
+  align-items: center;
+}
+
+.wind-fig p {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.wind-fig img {
+  margin-right: 10px;
+}
